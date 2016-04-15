@@ -1,0 +1,12 @@
+
+SELECT * FROM DUAL;
+
+/*查询记录条数*/
+SELECT COUNT(*) FROM T_UNIT;
+
+SELECT COUNT(*) FROM T_USER;
+
+/*1, 测试提交*/
+
+SELECT * FROM T_WAGEDATA
+

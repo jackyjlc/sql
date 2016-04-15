@@ -1,0 +1,20 @@
+/*
+查询科目挂辅助台账信息
+
+D016 挂接台账
+
+*/
+
+SELECT D002, D001, D016, PKG_JYKJ.GET_TZ_INFO(D016) 辅助台账 FROM C05
+WHERE 账套代码='145001' AND D016 IS NOT NULL
+ORDER BY 1;
+
+
+/*
+辅助台账信息查询
+G002_TZ
+代码
+台账名称
+*/
+
+SELECT * FROM G002_TZ;
